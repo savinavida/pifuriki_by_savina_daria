@@ -147,8 +147,8 @@
   
     &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Супер!]]&lt;/a&gt;
-      &lt;a href=&quot;user_said_no&quot; class=&quot;icq-choice-btn&quot;&gt;[[Ага, как же...]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Супер!]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Ага, как же...]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -297,7 +297,7 @@
   
     &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Давай, что там?]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Давай, что там?]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -465,9 +465,9 @@
   
 &lt;!-- блок с кнопками выбора --&gt;
 &lt;div class=&quot;choice-buttons&quot;&gt;
-  &lt;a href=&quot;Подвохи сегодня&quot; class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/span&gt;
     {(if: $trouble is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там всё то же самое^^]]&lt;/span&gt;]}
-  &lt;a href=&quot;Свежие сплетни&quot; class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/span&gt;
     {(if: $gossip is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там уже всё тыкали^^]]&lt;/span&gt;]}
 &lt;/div&gt;
 
@@ -641,9 +641,9 @@
   
 &lt;!-- Блок с кнопками выбора --&gt;
 &lt;div class=&quot;choice-buttons&quot;&gt;
-  &lt;a href=&quot;Хорошие новости&quot; class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/span&gt;
     {(if: $good is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там уже всё узнали^^]]&lt;/span&gt;]}
-  &lt;a href=&quot;Свежие сплетни&quot; class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/span&gt;
     {(if: $gossip is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там уже всё тыкали^^]]&lt;/span&gt;]}
 &lt;/div&gt;
 
@@ -822,9 +822,9 @@
   
 &lt;!-- блок с кнопками выбора --&gt;
 &lt;div class=&quot;choice-buttons&quot;&gt;
-  &lt;a href=&quot;Подвохи сегодня&quot; class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/span&gt;
     {(if: $trouble is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там всё то же самое^^]]&lt;/span&gt;]}
-  &lt;a href=&quot;Хорошие новости&quot; class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/a&gt;
+  &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/span&gt;
     {(if: $good is true)[&lt;span class=&quot;tooltip-box&quot;&gt;(text-colour:(hsl:210,0.8039,0.5,0.7))[(text-rotate-y:12)+(text-rotate-z:340)[^^⇐ там уже всё узнали^^]]&lt;/span&gt;]}
 &lt;/div&gt;
 
@@ -994,9 +994,9 @@
   
 &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;Подвохи сегодня&quot; class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/a&gt;
-      &lt;a href=&quot;Хорошие новости&quot; class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/a&gt;
-      &lt;a href=&quot;Свежие сплетни&quot; class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Подвохи сегодня]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Хорошие новости]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Свежие сплетни]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1144,7 +1144,7 @@
   
     &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Давай, что там?]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Давай, что там?]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1341,7 +1341,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Не отвечать]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Не отвечать]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1474,7 +1474,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Игнорировать сообщения]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Игнорировать сообщения]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1599,7 +1599,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;&#39;&#39;[[Не сдаваться!]]&#39;&#39;&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;&#39;&#39;[[Не сдаваться!]]&#39;&#39;&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1724,10 +1724,10 @@
  
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Отправить танцующий персик]]&lt;/a&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Отправить грустинку]]&lt;/a&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Отправить Гарри на метле]]&lt;/a&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;&#39;&#39;[[Не сдаваться!]]&#39;&#39;&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Отправить танцующий персик]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Отправить грустинку]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Отправить Гарри на метле]]&lt;/span&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;&#39;&#39;[[Не сдаваться!]]&#39;&#39;&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -1875,7 +1875,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -2015,7 +2015,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -2161,7 +2161,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Получить ответ Фифе]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -2311,7 +2311,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Отправить просто сердце]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Отправить просто сердце]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -2463,7 +2463,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Заблокировать мобильник]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Заблокировать мобильник]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -3606,7 +3606,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Отправить разбитое сердце]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Отправить разбитое сердце]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -3854,7 +3854,7 @@
   
     &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Обновить]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Обновить]]&lt;/span&gt;
    &lt;/div&gt;
 
   &lt;/div&gt;
@@ -3979,7 +3979,7 @@
   
     &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Обновить]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Обновить]]&lt;/span&gt;
    &lt;/div&gt;
 
   &lt;/div&gt;
@@ -4104,7 +4104,7 @@
   
       &lt;!-- блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Зайти еще раз]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Зайти еще раз]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -4227,7 +4227,7 @@
   
       &lt;!-- Блок с кнопками выбора --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Зайти еще раз]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Зайти еще раз]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -4828,7 +4828,7 @@
   
     &lt;!-- блок с кнопкой --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -5055,7 +5055,7 @@
   
     &lt;!-- блок с кнопкой --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
@@ -5315,7 +5315,7 @@
   
     &lt;!-- блок с кнопкой --&gt;
     &lt;div class=&quot;choice-buttons&quot;&gt;
-      &lt;a href=&quot;user_said_yes&quot; class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/a&gt;
+      &lt;span class=&quot;icq-choice-btn&quot;&gt;[[Выйти из чата]]&lt;/span&gt;
     &lt;/div&gt;
 
   &lt;/div&gt;
